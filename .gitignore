@@ -1,0 +1,32 @@
+# Ігнорування файлів конфігурації для IDE
+.vscode/
+.vs/
+.idea/
+
+# Файли build виходів
+bin/
+obj/
+
+# Ігнорування пакетів NuGet
+*.nupkg
+# NuGet v3's project.json files produces more ignoreable files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ігнорування файлів логів
+*.log
+
+# Ігнорування файлів для ключів та конфіденційної інформації
+secrets.json
+
+# Ігнорування користувацьких файлів конфігурації
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Різне
+*.DS_Store
+*.Thumbs.db
+*.~lock.*
