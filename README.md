@@ -19,7 +19,7 @@ API, яке дозволяє клієнтам шукати доступні за
    
 2. Змінити у файлі appsettings.json: DefaultConnection на посилання вашої бази даних.
 3. Ввести в Package Manager Console
-   a. Add-Migration InitialCreate
+   a. dotnet ef migrations add InitialCreate --project BackendTzReworked.DAL --startup-project BackendTzReworked
    b. Update-Database
 4. Ввести в Developer PowerShell
    a. dotnet run seeddata //Для базового заповнення таблиці.
